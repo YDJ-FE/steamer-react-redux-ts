@@ -68,7 +68,7 @@ module.exports = {
         {
             type: "confirm",
             name: "jest",
-            message: "wanner to use jest for your project?",
+            message: "wanna to use jest for your project?",
             default: false
         }
     ]
