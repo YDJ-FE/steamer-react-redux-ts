@@ -21,6 +21,8 @@ import "sanitize.css/sanitize.css";
  * import "antd/dist/antd.css"
  */
 
+ // import mobile website layout units
+import 'vw-layout'
 
 // app global style
 import './app.scss'

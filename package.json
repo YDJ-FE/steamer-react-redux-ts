@@ -34,7 +34,8 @@
         "redux-immutable": "^4.0.0",
         "redux-saga": "^0.16.0",
         "reselect": "^3.0.1",
-        "styled-components": "^3.2.6"
+        "styled-components": "^3.2.6",
+        "vw-layout": "^1.0.6"
     },
     "devDependencies": {
         "@types/lodash": "^4.14.109",
