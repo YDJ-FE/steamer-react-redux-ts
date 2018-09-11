@@ -6,6 +6,7 @@
     "scripts": {
         "lint": "lint-staged",
         "dev": "cross-env NODE_ENV=development node ./tools/script.js",
+        "postinstall": "node ./tools/copyLibs.js",
         "build:qa": "cross-env NODE_ENV=production APP_ENV=qa node ./tools/script.js",
         "deploy:qa": "npm run build:qa && qshell qupload ./qshell.qa.json",
         "build:prod": "cross-env NODE_ENV=production APP_ENV=prod node ./tools/script.js",
